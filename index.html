@@ -39,154 +39,84 @@
   <div class="page-home-teach-section">
       <div class="page-home-container w-container">
           <div class="w-layout-grid page-home-teach-grid">
-              <div class="page-home-teach-content">
+              <div class="page-home-teach-content text-center">
                   <h2 class="page-home-teach-heading">Mengajar di Binar</h2>
-                  <h3 class="page-home-teach-description">Ingin bantu cetak generasi berbinar? Ini kesempatanmu jadi pengajar di Binar!
-                  </h3><a href="https://magdalene349.softr.app/" target="_blank" 
-                  class="binar-button-large-purple-primary w-button">Lihat Selengkapnya
-                  </a>
+                  <h3 class="page-home-teach-description">Ingin bantu cetak generasi berbinar? Ini kesempatanmu jadi pengajar di Binar!</h3>
+                  <button type="button" class="btn btn-primary" id="btn-lihat-selengkapnya">Lihat Selengkapnya</button>
               </div>
-              <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007db9e9034f30db6a05_Hero%20image%20-%20homepage%202.png" loading="lazy" width="700" height="" alt="" srcset="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007db9e9034f30db6a05_Hero%20image%20-%20homepage%202-p-500.png 500w, https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007db9e9034f30db6a05_Hero%20image%20-%20homepage%202.png 719w" sizes="(max-width: 991px) 90vw, 700px" class="page-home-teach-image">
+              <img id="img-banner-lihat-selengkapnya" src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007db9e9034f30db6a05_Hero%20image%20-%20homepage%202.png" loading="lazy" width="700" height="" alt="" srcset="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007db9e9034f30db6a05_Hero%20image%20-%20homepage%202-p-500.png 500w, https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62a3007db9e9034f30db6a05_Hero%20image%20-%20homepage%202.png 719w" sizes="(max-width: 991px) 90vw, 700px" class="page-home-teach-image">
           </div>
       </div>
   </div>
 </section>
 <!-- end banner -->
 <!-- Carousel berita pilihan -->
-<section id="beritapilihan">
-  <div class="container px-4 py-5" id="featured-3">
-    <h2 class="pb-2 text-center" style="color: aqua;">Berita Pilihan Kami</h2>
-    <p class="text-center text-dark ">
-          Biar otak nggak tegang, kami hadirkan bacaan yang asyik, menarik, dan penuh insights!
-    </p>
-    <div id="carouselExample" class="carousel slide w-100 m-auto">
-      <div class="carousel-inner card py-4">
-        <div class="row d-flex justify-content-center">
-          <div class="col-2">
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="prev"
-            >
-              <img
-                src="./assets/Images/Vector.svg"
-                alt=""
-                class="img-fluid"
-              />
-            </button>
-          </div>
-          <div class="col-8">
-            <div class="carousel-item active">
-              <div class="row">
-                <div
-                  class="col-4 d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    id="profile_img"
-                    src="./assets/Images/binar1.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="col-8">
-                  <div class="row d-flex flex-column">
-                    <div class="col-12">
-                        <h4 style="fw-bold">Binar Academy Luncurkan Program Pelatihan Jadi Business Intelligence Engineer</h4>
-                        <p class="page-home-news-description">Binar Academy meluncurkan program pelatihan terbarunya yaitu business intelligence engineering.<br></p>
-                    </div>
-                    <div class="col-12">
-                      <p class="fw-bold"><a href="https://www.beritasatu.com/digital/852917/binar-academy-luncurkan-program-pelatihan-jadi-business-intelligence-engineer" target="_blank" class="page-home-news-link">Baca Selengkapnya</a></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<section>
+  <div class="container mt-5">
+    <div id="text-carousel" class="text-center">
+      <h2>Berita Pilihan Kami</h2>
+      <p>Biar otak nggak tegang, kami hadirkan bacaan yang asyik, menarik, dan penuh insights!</p>
+    </div>
+    <div id="carouselExampleInterval" class="carousel slide mx-auto" data-bs-ride="carousel">
+      <div class="carousel-inner" id="carousel-inner-news">
+        <!-- card 1 -->
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="row featurette ">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
             </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div
-                  class="col-4 d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    id="profile_img"
-                    src="./assets/images/binar2.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="col-8">
-                  <div class="row d-flex flex-column">
-                    <div class="col-12">
-                        <h4 style="fw-bold">Mencetak Talenta Digital Indonesia ala Binar Academy</h4>
-                        <p class="page-home-news-description">Gencarnya transformasi digital yang dilakukan banyak perusahaan meningkatkan kebutuhan talenta digital. Hal ini yang coba dipecahkan oleh Binar Academy..</p>
-                    </div>
-                    <div class="col-12">
-                      <p class="fw-bold"><a href="https://inet.detik.com/business/d-5760860/mencetak-talenta-digital-indonesia-ala-binar-academy" target="_blank" class="page-home-news-link" tabindex="-1" aria-hidden="true">Baca Selengkapnya</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="row">
-                <div
-                  class="col-4 d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    id="profile_img"
-                    src="./assets/Images/binar3.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="col-8">
-                  <div class="row d-flex flex-column">
-                    <div class="col-12">
-                      <h4 style="fw-bold">Binar Academy Lahirkan Talenta Sesuai Kebutuhan Digital Saat Ini</h4>
-                      <p class="page-home-news-description">Tidak ada industri di Indonesia yang tumbuh secepat ekonomi digital. Diperkirakan pada tahun 2025, ekonomi digital di Indonesia akan mencapai US$124 miliar, naik dari US$44 miliar pada tahun 2020.</p>
-                    </div>
-                    <div class="col-12">
-                      <p class="fw-bold"><a href="https://inet.detik.com/business/d-5760860/mencetak-talenta-digital-indonesia-ala-binar-academy" target="_blank" class="page-home-news-link" tabindex="-1" aria-hidden="true">Baca Selengkapnya</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="col-md-5 order-md-1">
+              <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/61a03c769ec29afb55efeeff_sumber-daya-manusia.jpg" loading="lazy" alt="" class="image-9">
             </div>
           </div>
-          <div class="col-2">
-            <button
-              class="carousel-control-next active"
-              type="button"
-              data-bs-target="#carouselExample"
-              data-bs-slide="next"
-            >
-              <img
-                src="./assets/Images/Vector-kanan.svg"
-                alt=""
-                class="img-fluid"
-              />
-            </button>
+        </div>
+        <!-- Card 2 -->
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/61a03c769ec29afb55efeeff_sumber-daya-manusia.jpg" loading="lazy" alt="" class="image-9">
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+              <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/61a03c769ec29afb55efeeff_sumber-daya-manusia.jpg" loading="lazy" alt="" class="image-9">
+            </div>
           </div>
         </div>
       </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
 </section>
 <!-- end berita pilihan -->
-  <!-- Join binar -->
-   <!-- Join binar -->
+
    <section id="hubungikami">
-    <div class="symbol-join-binarian-section">
-            <div class="symbol-join-binarian-container">
-            <div class="komunitas-cont center">
-                <div class="div-state contact-horizontal">
-                <div class="punya-pertanyaan _16px no-margin">Punya pertanyaan lebih lanjut?</div>
-                <a href="https://wa.me/6281328127358" target="_blank" id="btn-hubungi-general" rel="nofollow" class="binar-button-medium-purple-primary w-button">Hubungi Kami</a>
-                <a id="btn-hubungi-job-connect" rel="nofollow" href="https://wa.me/6281328127358" class="binar-button-medium-purple-primary symbol-comunity-contact-us-job-connect w-button">Hubungi Kami</a>
-                </div>
-            </div>
+    <div class="container symbol-join-binarian-section d-flex">
+            <div class="hubungi-kami">
+              <div class="row justify-content-between align-items-center">
+                <div class="col" style="margin-bottom: 0;font-size: 20px;font-weight: 700;">Punya pertanyaan lebih lanjut?</div>
+                <div class="col-3 justify-content-end" style="width: 19%;"><button type="button" class="btn btn-primary" id="btn-lihat-selengkapnya">Lihat Selengkapnya</button></div>
+              </div>
             </div>
         </div>
   </section>
