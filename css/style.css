@@ -314,6 +314,7 @@ a {
     right: 0%;
 }
 
+/* yang dibuah */
 .modal-dialog-centered {
     min-height: 0;
 }
@@ -337,6 +338,8 @@ a {
     display: flex;
     position: relative;
 }
+
+/* yang diubah */
 
 .symbol-speakers-popup-wrapper {
     z-index: 9998;
